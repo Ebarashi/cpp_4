@@ -23,7 +23,7 @@ using namespace coup;
 using namespace std;
 
 int main() {
-
+	
 	Game game_1{};
 
 	/* This player drew the "Duke" card, his name is Moshe
@@ -33,6 +33,7 @@ int main() {
 	Ambassador ambassador{game_1, "Meirav"};
 	Captain captain{game_1, "Reut"};
 	Contessa contessa{game_1, "Gilad"};
+
 
 	vector<string> players = game_1.players();
 
